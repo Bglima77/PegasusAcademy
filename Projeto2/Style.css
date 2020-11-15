@@ -1,0 +1,44 @@
+﻿h1 {
+    color: darkred
+}
+
+p {
+    text-align: left;
+}
+
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 05px 05px 05px 05px;
+    background-image: url('Pictures/wallpaper3.jpg');
+    font-family: 'Times New Roman';
+}
+
+a:link { /*link não visitado*/
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:visited { /*link visitado*/
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover { /*Quando o mouse ficar em cima*/
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+nav {
+    font-weight: bolder;
+    color: darkblue;
+}
+
+footer {
+    font-weight: bolder;
+    color: darkblue;
+}
+
