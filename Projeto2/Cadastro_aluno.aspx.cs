@@ -14,9 +14,9 @@ namespace Projeto2
 
 		}
 
-        protected void btnVoltar_Click(object sender, EventArgs e)
+        protected void btnBuscar_Click(object sender, EventArgs e)
         {
-			Response.Redirect("Home.aspx");
+            Response.Redirect("BuscaAluno.aspx");
         }
     }
 }

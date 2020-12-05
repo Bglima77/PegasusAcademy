@@ -15,13 +15,13 @@ namespace Projeto2
     {
 
         /// <summary>
-        /// Controle btnVoltar.
+        /// Controle btnLimpar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVoltar;
+        protected global::System.Web.UI.WebControls.Button btnLimpar;
 
         /// <summary>
         /// Controle btnSalvar.
@@ -31,15 +31,6 @@ namespace Projeto2
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSalvar;
-
-        /// <summary>
-        /// Controle btnLimpar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLimpar;
 
         /// <summary>
         /// Controle btnBuscar.

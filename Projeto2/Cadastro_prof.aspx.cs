@@ -18,5 +18,10 @@ namespace Projeto2
         {
             Response.Redirect("Home.aspx");
         }
+
+        protected void btnBuscar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("BuscaPersonal.aspx");
+        }
     }
 }

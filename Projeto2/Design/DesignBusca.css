@@ -1,0 +1,26 @@
+﻿body {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+    font-size: 17px;
+    border: 2px solid #191970;
+    padding: 05px 05px 05px 05px;
+    background-color: lightgray;
+    font-family: 'Times New Roman';
+}
+
+form {
+    margin: 0 150px;
+    color: black;
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 5px;
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

@@ -69,6 +69,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BuscaAluno.aspx" />
+    <Content Include="BuscaPersonal.aspx" />
     <Content Include="Cadastro_aluno.aspx" />
     <Content Include="Cadastro_prof.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -79,6 +81,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Design\DesignCadastro.css" />
     <Content Include="Design\DesignLogin.css" />
+    <Content Include="Design\DesignBusca.css" />
     <Content Include="Home.aspx" />
     <Content Include="LoginProf.aspx" />
     <Content Include="Pictures\Alimentacao.jpg" />
@@ -199,6 +202,20 @@
     <Content Include="Scripts\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuscaAluno.aspx.cs">
+      <DependentUpon>BuscaAluno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuscaAluno.aspx.designer.cs">
+      <DependentUpon>BuscaAluno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaPersonal.aspx.cs">
+      <DependentUpon>BuscaPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuscaPersonal.aspx.designer.cs">
+      <DependentUpon>BuscaPersonal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro_aluno.aspx.cs">
       <DependentUpon>Cadastro_aluno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
