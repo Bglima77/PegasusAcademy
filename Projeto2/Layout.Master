@@ -14,7 +14,7 @@
     <nav>
         <h3>
             <a href="Home.aspx">Home</a> |
-            <a href="#">Cadastro de professor</a> |
+            <a href="LoginProf.aspx">Cadastro de professor</a> |
             <a href="#">Cadastro de aluno</a> |
             <a href="#">Treino em casa</a> |
         </h3>
