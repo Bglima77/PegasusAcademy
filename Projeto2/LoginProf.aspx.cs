@@ -13,6 +13,16 @@ namespace Projeto2
         {
 
         }
+
+        protected void btnEntrar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Cadastro_prof.aspx");
+        }
+
+        protected void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
     }
 }
 

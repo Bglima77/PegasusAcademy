@@ -1,44 +1,21 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Cadastro_prof.aspx.cs" Inherits="Projeto2.Cadastro_prof" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Cadastro_aluno.aspx.cs" Inherits="Projeto2.Cadastro_aluno" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Design/DesignCadastro.css" rel="stylesheet" />
-    <style type="text/css">
-        
-        #txtCPF {
-            width: 217px;
-        }
-        #txtNome {
-            width: 205px;
-        }
-        #txtFormacao {
-            width: 183px;
-        }
-        #txtCelular {
-            width: 200px;
-        }
-        #txtBairro {
-            width: 205px;
-        }
-        #txtLogradouro {
-            width: 167px;
-        }
-        #txtExp {
-            height: 42px;
-            width: 272px;
-        }
-    </style>
+<style type="text/css">
+    #slcPersonal {
+        width: 148px;
+        height: 19px;
+    }
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="input-block">
+      <div class="input-block">
         Nome:
         <input id="txtNome" type="text" /><br />
     </div>
     <div class="input-block">
         CPF:
         <input id="txtCPF" type="text" /><br />
-    </div>
-      <div class="input-block">
-        Data Nascimento:
-        <input id="txtDataNasc" type="text" /><br />
     </div>
     <div class="input-block">
         Logradouro:
@@ -53,13 +30,16 @@
         <input id="txtCelular" type="text" /><br />
     </div>
     <div class="input-block">
-        Formação:
+        Data Nascimento:
         <input id="txtFormacao" type="text" /><br />
     </div>
     <div class="input-block">
-        Experiências<br />
-        <textarea id="txtExp" name="S1"></textarea><br />
+        <br />
     </div>
+Personal Trainer<br />
+<select id="slcPersonal" name="D1">
+    <option></option>
+</select><br />
         <br />
     <asp:Button ID="btnVoltar" runat="server" Text="Voltar"  BackColor="#3333FF" BorderColor="White" BorderStyle="Solid" ForeColor="White" Height="32px" Width="67px" OnClick="btnVoltar_Click" />
         &nbsp;<asp:Button ID="btnSalvar" runat="server" Text="Salvar"  BackColor="#3333FF" BorderColor="White" BorderStyle="Solid" ForeColor="White" Height="32px" Width="67px"/>

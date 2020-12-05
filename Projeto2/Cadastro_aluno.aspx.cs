@@ -7,16 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace Projeto2
 {
-    public partial class Cadastro_prof : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class Cadastro_aluno : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
+		}
 
         protected void btnVoltar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Home.aspx");
+			Response.Redirect("Home.aspx");
         }
     }
 }

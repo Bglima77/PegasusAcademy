@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <link rel="stylesheet" href="Style.css">
+    <link href="Design/Style.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -14,8 +14,8 @@
     <nav>
         <h3>
             <a href="Home.aspx">Home</a> |
-            <a href="LoginProf.aspx">Cadastro de professor</a> |
-            <a href="#">Cadastro de aluno</a> |
+            <a href="LoginProf.aspx">Cadastro Personal trainer</a> |
+            <a href="Cadastro_aluno.aspx">Cadastro de aluno</a> |
             <a href="#">Treino em casa</a> |
         </h3>
     </nav>

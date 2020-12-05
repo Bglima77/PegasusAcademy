@@ -11,7 +11,7 @@ namespace Projeto2
 {
 
 
-    public partial class Cadastro_prof
+    public partial class Cadastro_aluno
     {
 
         /// <summary>

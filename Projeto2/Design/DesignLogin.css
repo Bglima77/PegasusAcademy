@@ -50,16 +50,16 @@ form {
 
     form .btn-login {
         border-style: none;
-    border-color: inherit;
-    border-width: medium;
-    display: block;
+        border-color: inherit;
+        border-width: medium;
+        display: block;
         min-width: 120px;
         background-color: #0e3547;
         color: white;
         border-radius: 25px;
         margin: auto;
         padding: 7px;
-    height: 28px;
-    width: 63px;
+        height: 28px;
+        width: 63px;
 }
 

@@ -21,8 +21,10 @@
             <b>Senha</b><br />
             <input id="txtSenha" type="password" /><br />
         </div>
-            <asp:Button ID="btnEntrar" runat="server" Text="Login" Height="27px" Width="104px" class="btn-login"/>
+            <asp:Button ID="btnEntrar" runat="server" Text="Login" Height="27px" Width="104px" class="btn-login" OnClick="btnEntrar_Click"/>
             <br />
+            <asp:Button ID="btnVoltar" runat="server" Text="Voltar" class="btn-login" OnClick="btnVoltar_Click"/>
+        <br />
     </form>
     </section>
 </body>

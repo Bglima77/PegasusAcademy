@@ -4,6 +4,7 @@
 
 p {
     text-align: left;
+    opacity: 1;
 }
 
 body {
@@ -11,34 +12,34 @@ body {
     margin-right: 2%;
     text-align: center;
     font-size: 16px;
-    border: 2px solid gray;
+    border: 2px solid #191970;
     padding: 05px 05px 05px 05px;
-    background-image: url('Pictures/wallpaper3.jpg');
+    background-color: lightgray;
     font-family: 'Times New Roman';
 }
 
 a:link { /*link não visitado*/
-    color: darkblue;
+    color: darkred;
     text-decoration: none;
 }
 
 a:visited { /*link visitado*/
-    color: darkblue;
+    color: darkred;
     text-decoration: none;
 }
 
 a:hover { /*Quando o mouse ficar em cima*/
-    color: lightseagreen;
+    color: darkblue;
     text-decoration: none;
 }
 
 nav {
     font-weight: bolder;
-    color: darkblue;
+    color: darkred;
 }
 
 footer {
     font-weight: bolder;
-    color: darkblue;
+    color: darkred;
 }
 
