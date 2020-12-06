@@ -12,7 +12,8 @@
     <section class="form-section">
     <form id="form1" runat="server">
        <div class="input-block">
-            <b>Usuario</b><br />
+            <b>Usuario</b><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUser" ErrorMessage="Usuário obrigatório." ValidationGroup="form">*</asp:RequiredFieldValidator>
+            <br />
             <asp:TextBox ID="txtUser" runat="server"></asp:TextBox>
        </div>
             <br />

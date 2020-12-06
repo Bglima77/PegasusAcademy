@@ -6,8 +6,10 @@
         <p>
         Insira:
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Nome ou CPF obrigatório." ValidationGroup="form">*</asp:RequiredFieldValidator>
 &nbsp;<asp:Button ID="txtBusca" runat="server" Text="Buscar" />
     </p>
+        <asp:ValidationSummary ID="ValidationSummary1" runat="server" ValidationGroup="form" />
     <p>
         Filtro:
         <asp:RadioButton ID="rbNome" runat="server" Font-Size="Small" Text="Nome" />
