@@ -87,15 +87,6 @@ namespace Projeto2
         protected global::System.Web.UI.WebControls.TextBox txtEndereco;
 
         /// <summary>
-        /// Controle txtBairro.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBairro;
-
-        /// <summary>
         /// Controle RequiredFieldValidator4.
         /// </summary>
         /// <remarks>
@@ -150,6 +141,24 @@ namespace Projeto2
         protected global::System.Web.UI.WebControls.TextBox txtDataNasc;
 
         /// <summary>
+        /// Controle ddlPersonal.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlPersonal;
+
+        /// <summary>
+        /// Controle SqlDataSource1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+
+        /// <summary>
         /// Controle ValidationSummary1.
         /// </summary>
         /// <remarks>
@@ -159,13 +168,13 @@ namespace Projeto2
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
 
         /// <summary>
-        /// Controle btnLimpar.
+        /// Controle btnNovo.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLimpar;
+        protected global::System.Web.UI.WebControls.Button btnNovo;
 
         /// <summary>
         /// Controle btnSalvar.

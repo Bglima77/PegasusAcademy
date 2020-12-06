@@ -16,7 +16,7 @@
             <a href="Home.aspx">Home</a> |
             <a href="LoginProf.aspx">Cadastro Personal trainer</a> |
             <a href="Cadastro_aluno.aspx">Cadastro de aluno</a> |
-            <a href="#">Treino em casa</a> |
+            <a href="https://www.treinoemcasa.com/" target="_blank">Treino em casa</a> |
         </h3>
     </nav>
     <hr />

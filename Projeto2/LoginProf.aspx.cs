@@ -16,8 +16,24 @@ namespace Projeto2
 
         protected void btnEntrar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Cadastro_prof.aspx");
-        }
+            string usuario = txtUser.Text;
+            string senha = txtSenha.Text;
+
+            // Cria conexão com o banco de dados
+            PegasusAcademyEntities conexao = new PegasusAcademyEntities();
+            //Consulta objeto usuário baseado em login e senha
+            usuario usuarios =
+            conexao.usuario.FirstOrDefault(
+                linha => linha.login.Equals(usuario) &&
+                         linha.senha.Equals(senha)
+                );
+
+            if (usuarios != null)
+            {
+                //Login Bem sucedido
+                Response.Redirect("Cadastro_prof.aspx");
+            }
+}
 
         protected void btnVoltar_Click(object sender, EventArgs e)
         {

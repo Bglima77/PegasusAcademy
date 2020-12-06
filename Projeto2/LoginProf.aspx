@@ -12,7 +12,7 @@
     <section class="form-section">
     <form id="form1" runat="server">
        <div class="input-block">
-            <b>Usuario</b><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUser" ErrorMessage="Usuário obrigatório." ValidationGroup="form">*</asp:RequiredFieldValidator>
+            <b>Usuario</b><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUser" ErrorMessage="Usuário obrigatório." ValidationGroup="form" ForeColor="Red">*</asp:RequiredFieldValidator>
             <br />
             <asp:TextBox ID="txtUser" runat="server"></asp:TextBox>
        </div>
@@ -20,9 +20,10 @@
 
         <div class="input-block">
             <b>Senha</b><br />
-            <input id="txtSenha" type="password" /><br />
+            <asp:TextBox ID="txtSenha" runat="server" TextMode="Password"></asp:TextBox>
+            <br />
         </div>
-            <asp:Button ID="btnEntrar" runat="server" Text="Login" Height="27px" Width="104px" class="btn-login" OnClick="btnEntrar_Click"/>
+            <asp:Button ID="btnEntrar" runat="server" Text="Login" Height="27px" Width="104px" class="btn-login" OnClick="btnEntrar_Click" ValidationGroup="form"/>
             <br />
             <asp:Button ID="btnVoltar" runat="server" Text="Voltar" class="btn-login" OnClick="btnVoltar_Click"/>
         <br />

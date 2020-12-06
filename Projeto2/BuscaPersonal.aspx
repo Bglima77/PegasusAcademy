@@ -3,20 +3,34 @@
     <link href="Design/DesignBusca.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p>
+        <p>
         Insira:
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Nome ou CPF obrigatório." ValidationGroup="form">*</asp:RequiredFieldValidator>
-&nbsp;<asp:Button ID="txtBusca" runat="server" Text="Buscar" />
+        <asp:TextBox ID="txtBuscar" runat="server"></asp:TextBox>
+&nbsp;<asp:Button ID="btnBuscar" runat="server" Text="Buscar" OnClick="btnBuscar_Click" ValidationGroup="form" />
     </p>
-    <asp:ValidationSummary ID="ValidationSummary1" runat="server" ValidationGroup="form" />
     <p>
         Filtro:
-        <asp:RadioButton ID="rbNome" runat="server" Font-Size="Small" Text="Nome" />
-        <asp:RadioButton ID="rbCPF" runat="server" Font-Size="Small" Text="CPF" />
+        <asp:RadioButton ID="rbNome" runat="server" Font-Size="Small" Text="Nome" Checked="True" GroupName="filtro" />
+        <asp:RadioButton ID="rbCPF" runat="server" Font-Size="Small" Text="CPF" GroupName="filtro" />
     </p>
     <p>
-        <asp:GridView ID="GridView1" runat="server" Width="467px">
+        <asp:GridView ID="GridView1" runat="server" Width="826px" AutoGenerateColumns="False" DataKeyNames="ID_Personal">
+            <Columns>
+                <asp:BoundField DataField="ID_Personal" HeaderText="Codigo" />
+                <asp:BoundField DataField="Nome" HeaderText="Nome" />
+                <asp:BoundField DataField="CPF" HeaderText="CPF" />
+                <asp:BoundField DataField="DataNasc" HeaderText="Data Nascimento" />
+                <asp:BoundField DataField="Endereco" HeaderText="Endereço" />
+                <asp:BoundField DataField="Bairro" HeaderText="Bairro" />
+                <asp:BoundField DataField="Celular" HeaderText="Contato" />
+                <asp:BoundField DataField="Formacao" HeaderText="Formação" />
+                <asp:BoundField DataField="Experiencia" HeaderText="Experiencia" />
+                <asp:CommandField ButtonType="Button" ShowSelectButton="True" />
+            </Columns>
         </asp:GridView>
+    </p>
+        <p>
+            <asp:Button ID="btnCancelar" runat="server" OnClick="Button1_Click" Text="Cancelar" />
+&nbsp;<asp:Button ID="btnRemover" runat="server" OnClick="btnRemover_Click" Text="Remover" />
     </p>
 </asp:Content>
