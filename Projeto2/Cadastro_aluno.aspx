@@ -11,27 +11,33 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
       <div class="input-block">
         Nome:
-        <input id="txtNome" type="text" /><br />
+          <asp:TextBox ID="txtNome" runat="server" Height="16px" Width="180px"></asp:TextBox>
+          <br />
     </div>
     <div class="input-block">
         CPF:
-        <input id="txtCPF" type="text" /><br />
+        <asp:TextBox ID="txtCPF" runat="server" Height="16px" Width="189px"></asp:TextBox>
+        <br />
     </div>
     <div class="input-block">
-        Logradouro:
-        <input id="txtLogradouro" type="text" /><br />
+        Endereco:
+        <asp:TextBox ID="txtEndereco" runat="server" Width="152px"></asp:TextBox>
+        <br />
     </div>
     <div class="input-block">
         Bairro:
-        <input id="txtBairro" type="text" /><br />
+        <asp:TextBox ID="txtBairro" runat="server" Width="173px"></asp:TextBox>
+        <br />
     </div>
     <div class="input-block">
         Celular:
-        <input id="txtCelular" type="text" /><br />
+        <asp:TextBox ID="txtCelular" runat="server" Width="167px"></asp:TextBox>
+        <br />
     </div>
     <div class="input-block">
         Data Nascimento:
-        <input id="txtFormacao" type="text" /><br />
+        <asp:TextBox ID="txtDataNasc" runat="server" Width="100px"></asp:TextBox>
+        <br />
     </div>
     <div class="input-block">
         <br />
